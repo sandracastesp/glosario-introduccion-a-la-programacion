@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="glosario.css">
+    <title>glosario-introducción-a-la-programacion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="titulo">
+        <h1>GLOSARIO INTRODUCCIÓN A LA PROGRAMACIÓN</h1>
+        <h2> Por Sandra Ivonne Castro España</h2>
+    </section>
+    <section class="contenido">
+        <div class="git">
+            <h3> GIT</h3>
+            <img src="./imagenes/git.png" alt="git">
+        </div>
+        <p>Sistema de historial de cambios y control de versiones.</p>
+        <ul>
+            <li> Repositorio: carpeta que guarda historial de cambios, puede ser local o remoto. </li>
+            <li> Commit: guardado del estado actual de archivos del repo y lo guarda como una versión específica.
+                (fotografía) </li>
+            <ol>
+                <li>git add nombre-del-archivo ó</li>
+                <li>git add .</li>
+                <li>git status</li>
+                <li>git commit -m "Mensaje descriptivo del commit"</li>
+                <li>git origin main</li>
+            </ol>
+            <li> Branch: línea de desarrollo separada dentro del repo, no afecta el código principal, luego se pueden
+                fusionar las ramas. </li>
+            <li> Ramas: rama main es la principal, estable y probada y en ramas feature se prueban nuevas
+                características.</li>
+            <li> Fusión (merge): combinación de cambios realizados en una sola versión.</li>
+            <li> Staging area: etapa intermedia, antes de realizar commit.</li>
+            <li> Directorio: carpeta. </li>
+            <li> git init: crea carpeta oculta llamada .git donde se almacenará toda la información del repositorio en
+                el que se trabajará.</li>
+        </ul>
+        <div class="github">
+            <h3> GITHUB </h3>
+            <img src="./imagenes/github.png" alt="github">
+        </div>
+        <p> Plataforma en línea en el que se pueden guardar, compartir en proyectos de software.</p>
+        <ul>
+            <li> Repositorio: lugar de almacenaje de código, documentación, y recursos. Puede ser público o privado.
+            </li>
+            <li> Clonar repo (desde gitbash):</li>
+            <ol>
+                <li> Abrir directorio en donde se quiera guardar usando "ls" y "cd" </li>
+                <li> git clone(enlace SSH)</li>
+                <li> Para abrir en VSC: code . </li>
+            </ol>
+            <li> git push: comando para subir cambios desde el repositio local, "git push origin main", para rama
+                principal. </li>
+            <li> git pull: actualizar repositorio local de los cambios que han realizado otros colaboradores. </li>
+            <li> git fetch: descarga cambios para revisarlos antes de aplicarlos.</li>
+        </ul>
+        <strong>Github Pages</strong>
+        <p> herramienta gratuita que ofrece GitHub para alojar sitios web estáticos directamente desde un repositorio.
+        </p>
+        <ol>
+            <li> Repositorio de Github </li>
+            <li> Pestaña "Settings"</li>
+            <li> Sección "Pages"</li>
+            <li> Apartado "Branch" elegir rama deseada y guardar en "Save"</li>
+            <li> Luego de un momento designara el enlace.</li>
+        </ol>
+        <p> Para mostrar en "<> code" dentro del repositorio. </p>
+        <ol>
+            <li> Settings en la sección About. </li>
+            <li> Seleccionar "Use Your Github Pages website.</li>
+            <li> Dar click en Save changes.</li>
+        </ol>
+        <div class="html">
+            <h3> HTML</h3>
+            <img src="./imagenes/html.png" alt="html">
+        </div>
+        <em> HyperText Markup Language </em>
+        <p> Lenguaje de marcado estándar utilizado para crear estructura del contenido de páginas web, permite mostrar
+            títulos, texto, imagenes, enlaces, etc. </p>
+        <p> Las etiquetas se colocan entre <strong>
+                <>
+            </strong> </p>
+        <ul>
+            <li> !DOCTYPEhtml: se agrega con "!", para seguir las reglas de HTML5</li>
+            <li> body: alberga el contenido visible de la página. </li>
+        </ul>
+        <strong>Etiquetas de texto</strong>
+        <ul>
+            <li> h1 a h6: etiquetas de encabezado.</li>
+            <li> p: párrafo de texto.</li>
+            <li> strong: negrita.</li>
+            <li> em: cursiva </li>
+        </ul>
+        <strong> Listas</strong>
+        <ul>
+            <li> ul: lista con puntos.</li>
+            <li> ol lista numerada..</li>
+            <li> li: elemento de la lista.</li>
+        </ul>
+        <strong> Enlaces</strong>
+        <ul>
+            <li> a: crea enlaces en HTML.</li>
+            <li> href: url del enlace</li>
+        </ul>
+        <strong> Imágenes</strong>
+        <ul>
+            <li> img: inserta imágenes.</li>
+            <li> src: ruta de la imagen-</li>
+            <li> alt: texto para describir imagen.</li>
+            <li> title: muestra un texto flotante cuando se coloca el cursor sobre la imagen.</li>
+        </ul>
+        <strong> Estructura semantica</strong>
+        <ul>
+            <li> header: cabecera de la página o de una sección, puede contener logotipos, menús, título.</li>
+            <li> nav: sección de una página cuyo propósito es proporcionar enlaces de navegación, ya sea dentro del
+                documento actual o hacia otros documentos.</li>
+            <li> main: contenido principal del documento, único.</li>
+            <li> footer: pie de página.</li>
+            <li> article: representa una composición autónoma en un documento, página, aplicación o sitio, que está
+                destinada a ser distribuida o reutilizada.</li>
+            <li> section: representa una sección genérica e independiente de un documento, que no tiene un elemento
+                semántico más específico que la represente. </li>
+        </ul>
+        <strong> Divisiones y contenedores</strong>
+        <ul>
+            <li> div: contenedor de bloque que se utiliza para agrupar elementos o secciones, empieza en una nueva línea
+                y ocupa el ancho disponible. </li>
+            <li> span: es un contenedor en línea, que se usa para agrupar pequeños fragmentos de texto u otros elementos
+                dentro de una línea. </li>
+        </ul>
+        <strong>FORMULARIO</strong>
+        <p> Herramienta que permite que el usuario envie datos al servidor. </p>
+        <p> Elementos dentro de <strong>
+                <>
+            </strong></p>
+        <ul>
+            <li> form: contenedor principal de todos los elementos del formulario. </li>
+            <li> input: permite aceptar datos del usuario, hay una amplia variedad de tipos de datos de entrada y
+                widgets de control disponibles. El tipo de dato que el usuario puede ingresar se define mediante el
+                atributo type.</li>
+            <li> label: describe el propósito de un campo de entrada, generalmente se asocia con input para mejorar la
+                accesibilidad y el usuario identifique la información que se debe proporcionar. </li>
+            <li> textarea:recoger grandes cantidades de texto, como comentarios o descripciones. A diferencia de input,
+                que generalmente es una sola línea</li>
+            <li> button: botones iteractivos dentro del formulario, se pueden modificar de acuerdo a las necesidades.
+            </li>
+        </ul>
+        <strong> Campos de texto </strong>
+        <ul>
+            <li> input type="text": entrada versatil, campos de texto básicos de una sola línea como nombre o dirección.
+            </li>
+            <li> input type="email": entrada para ingresar y editar dirección de correo electrónico, puede ser validad
+                por el mismo nevegador.</li>
+            <li> input type="password": entrada para contraseñas en la que enmascaran el texto.</li>
+        </ul>
+        <strong> Botones de envío </strong>
+        <ul>
+            <li> button type="submit": El botón envía datos del formulario cuando se da click y permite modificar el
+                botón. </li>
+            <li> input type="submit": Envía datos del formualrio, pero no permite contenido adicional dentro del botón.
+            </li>
+        </ul>
+        <strong> Etiquetas de agrupacióm: </strong>
+        <ul>
+            <li> fieldset: se utiliza para agrupar varios controles y etiquetas ( ) dentro de un formulario.</li>
+            <li> legend: proporciona un título o descripción para el grupo de campos dentro de un fieldset.</li>
+        </ul>
+        <div class="css">
+            <h3> CSS </h3>
+            <img src="./imagenes/css.png" alt="css">
+        </div>
+        <em> Cascading Style Sheets (hojas de estilo en cascada) </em>
+        <p> Leguaje que se usa para estilizar una página web. </p>
+        <p> Regla CSS</p>
+        <ol>
+            <li> Selector: parte o partes (se puede hacer combinaciones) del archivo HTML al que se le aplicarán los
+                estilos, luego del selector se abre llave {. </li>
+            <ul>
+                <li> Elemento, por ejemplo: h1, p, img </li>
+                <li> Clase o clases, por ejemplo: .clase</li>
+                <li> ID, por ejemplo: #id </li>
+                <li> Selector universal: * en el que se aplica un estilo a todo el proyecto.</li>
+            </ul>
+            <li> Declaración: precisa a cuál de las propiedades se estilizará. (Propiedad: propiedad-valor); </li>
+            <li> Propiedad: característica que se le modificará al selector. </li>
+            <li> Valor de propiedad: color, cantidad, estilo específico de la propiedad elegida. </li>
+            <li> Al finalizar regla se cierra }.</li>
+        </ol>
+        <ul>
+            <li> index.html: nombre que se le asignará al archivo HTML para poder funcionar correctamente. </li>
+            <li> styles.css: nombre que se le dará a archivo CSS dentro del mismo repositorio.</li>
+        </ul>
+        <p> Para vinvular archivo CSS al HTML colocar entre <strong>
+                <>
+            </strong> link rel="stylesheet" href="styles.css" dentro de la etiqueta head. </p>
+        <strong> Pseudoclases </strong>
+        <p> Aplican estilos a ciertos estados de un elemento. </p>
+        <ul>
+            <li> :hover; cambia el estilo de un elementos cuando pasa el mouse sobre él. </li>
+        </ul>
+        <strong> Pseudoelementos </strong>
+        <ul>
+            <li> Aplican estilos a una parte concreta de un elemento, por ejemplo: seleccionar primera línea de un
+                texto. </li>
+        </ul>
+        <strong> Display </strong>
+        <ol>
+            <li> display: inline; elementos que se alinean en la misma línea, llegan al final y saltan al siguiente
+                espacio. </li>
+            <li> display: block; elementos que ocupan todo el ancho disponible y comienzan en una nueva línea, se le
+                spuede dar un tamaño en específico.</li>
+            <li> display: inline block; combinación de displays anteriores. </li>
+            <li> display: flex; elementos se alinean de distintos formas y distribuir espacio entre ellos.</li>
+            <li> display: grid; rejilla que permite coloacr elementos en filas, columnas, se puede definir la cantidad,
+                tamaño, distancia entre ellas, etc. </li>
+            <li> display: none; desaparece elementos por completo </li>
+        </ol>
+        <strong> Propiedades</strong>
+        <ul>
+            <li> float: controla como se alinean los elementos dentro de un contenedor.</li>
+            <li> Position: controla como se posiciona un elemento HTML en relacioón con su contenedor. </li>
+            <ol>
+                <li> position: absolute; se posiciona con respecto al contenedor padre, al usar esta propieda se puede
+                    usar (top, right, bottom y left) </li>
+                <li> position: relative; elementos se queda en el flujo de la página (top, right, bottom y left)</li>
+                <li> position: fixed; elementos se posicionan de acuerdo a <em>absolute y relative</em> (top, right,
+                    bottom y left) </li>
+                <li> position: sticky; similar e <em>relative</em> sirve para que un elemento se quede fijo en su
+                    posición al hacer scroll, pero solo dentro de su contenedor. </li>
+            </ol>
+            <li> z-index: sirve para controlar qué elemento se coloca "encima" o "debajo" de otros cuando se superponen. Un número más alto lo pone más arriba. Solo tiene efecto sobre elementos que están posicionados (es decir, con position: relative, absolute, fixed, o sticky).</li>
+            <li> color: cambia color de los elementos. </li>
+            <li> background-color: fondo de color.</li>
+            <li> font-siza: tamaño de fuente</li>
+            <li> font-familiy: fuente (se puede agregar fuentes desde Google Fonts). </li>
+            <li> text-align: texto alineado.</li>
+        </ul>
+        <strong> Modelo de caja </strong>
+        <p> Cada elemento dentro de un proyecto de HTML y CSS en el navegador se muestra en una caja rectangular. Cada
+            elemento es una caja dentro de otra caja. </p>
+        <p> Área de elementos </p>
+        <ul>
+            <li> Content: tamaño total en px del tamaño del elemento. </li>
+            <li> Padding: establece el área de relleno en los cuatro lados de un elemento a la vez.</li>
+            <li> Border: perimetro que rodea al elemento y al padding.</li>
+            <li> Margin: margen de los cuatros lados (propiedades: margin-top, margin-right, margin-bottom y
+                margin-left)</li>
+            <li> width y height: ancho y altura de la caja.</li>
+        </ul>
+        <p> Box-sizing</p>
+        <ul>
+            <li> box-sizing: content-box; valor por defecto, ancho y altura de un elemento se aplican ala caja sin
+                contar relleno ni borde. </li>
+            <li> box-sizing: border-box; el tamaño del elemento se simplifica, ancho y altura que se define incluyen
+                relleno y bordes. </li>
+        </ul>
+        <strong> Flexbox</strong>
+        <p> Permite acomodar la disposición de elementos de manera flexible, ya sea horizontal o vertical.</p>
+        <ul>
+            <li> Cuando se aplica display:flex los elementos hijos se comportan con reglas de flexbox.</li>
+            <li> flex-direction; dirección del eje principal</li>
+        <ol> 
+            <li> row; alinea elementos de izquierda a derecha. </li>
+            <li> row-reverse: alinea elementos de derecha a izquierda. </li>
+            <li> column: alinea elementos de arriba a abajo. </li>
+            <li> column-reverse: alinea elementos de abajo a arriba.</li>
+            <li> flex-start; elementos se alinean al inicio del contenedor.</li>
+            <li> flex-end; elementos se alinean al final del contenedor. </li>
+            <li> center; elementos se alinean al centro del contenedor.</li>
+            <li> space-between; mantiene el mayor espacio entre elementos.</li>
+            <li> space-around; mantiene espacio entre los elementos y también al principio y al final. </li>            </li>
+        </ol>
+            <li> justify-content: alienación en el eje principal.</li>
+            <li> align-items: alienación eje cruzado</li>
+            <li> align-content: controla cómo se distribuyen las líneas de elementos a lo largo del eje cruzado.</li>
+            <li> flex-wrap: permite que los elementos se distribuyan en múltiples líneas cuando el espacio disponible sea insuficiente.</li>
+            <ol>
+                <li> nowrap: elementos se colocan en una sola línea</li>
+                <li> wrap: elementos se acomoden en varias lineas si no saven en una fila o una columna. </li>
+                <li> wrap-reverse: similar a wrap, pero la línea nueva se coloca por encima de la línea original.</li>
+            </ol>
+            <li> flex-grow: controla cuánto puede crecer un elemento en relación con los demás.</li>
+        </ul>
+    </section>
+</body>
+
+</html>

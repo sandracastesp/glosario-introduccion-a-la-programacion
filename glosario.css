@@ -1,0 +1,53 @@
+body {
+    background-color: #FEEDD3;
+    font-family: "Poppins", sans-serif;
+    color: #e14763;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: "Fira Sans", sans-serif;
+    color: #FF7E93;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: #f694a6;
+    font-size: 20px;
+}
+
+h3 {
+    color:#ffffff;
+    font-size: 20px;
+    width: 100px;
+    background-color: #F5984A;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 1000px;
+    text-align: center;
+}
+
+.titulo {
+    text-align: center;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    padding: 20px 5px;
+}
+
+.git,
+.github,
+.html,
+.css {
+    display: flex;
+}
+
+.contenido {
+    column-count: 4;
+    column-gap: 20px;
+    column-rule: 1px solid #F5984A;
+    margin: 20px;
+}
